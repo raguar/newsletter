@@ -61,7 +61,7 @@ app.post('/failure', ()=>{
 })
 
 app.listen(process.env.PORT || 3000, ()=> {
-    console.log("server is running at " + port)
+    console.log("server is running at")
 })
 
 
